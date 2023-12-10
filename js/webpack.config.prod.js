@@ -1,1 +1,0 @@
-HtmlWebpackPlugin({ inject: true, template: paths.appHtml, filename: 'Homepage.html'});
