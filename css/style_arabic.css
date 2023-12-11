@@ -10,7 +10,7 @@
     --arrival_rec_green:#0ac20a;
     --collection_bg_color:#394041de;
 }
-/****************************************general***********************************************/
+/****************************************general*******************************************/
 * {
     box-sizing: border-box;
 }
@@ -97,6 +97,8 @@ li a:hover {
     text-align: center;
     width:40rem;
     justify-content: space-around;
+        -webkit-transform: scaleX(-1);
+    transform: scaleX(-1
 }
 .right img{
     width: 60%;
