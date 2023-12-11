@@ -371,21 +371,25 @@ height:1.2 ;
     text-align: center;
     line-height: 2rem;
 }
-
+.arrow{
+    position: absolute;
+    right: 11%;
+    bottom:.9rem;
+    color: var(--font_top_list_hovr_color);
+}
 .bottom_input{
     position: relative;
+    background-color: transparent;
+}
+.bottom_input input{
+    background-color: transparent;
 }
 .input_shade{
     height: 3rem;
     border-color: transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.arrow{
-    position: absolute;
-    right: 11%;
-    bottom:1.3rem;
-    color: var(--font_top_list_hovr_color);
-}
+
 
 
 
